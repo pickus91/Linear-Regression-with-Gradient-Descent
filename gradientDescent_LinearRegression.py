@@ -106,18 +106,17 @@ def run():
     plt.plot(line, label = 'y = {:.2f}x + {:.2f}'.format(m, b))
     plt.scatter(x, y)
     plt.xlabel('x')
-    plt.ylabel('y')
-    plt.title('Linear Regression via Gradient Descent')
+    plt.ylabel('y')    
     plt.show()
     plt.legend()
     
     #m and b step progression
-    plt.figure(2)
+    fig = plt.figure(2)
     plt.subplot(311)    
-    plt.plot(m_steps, b_steps)
-    plt.title('Steps')
+    plt.plot(m_steps, b_steps)    
     plt.xlabel('m')
     plt.ylabel('b') 
+    fig.subplots_adjust(bottom = 0.2)    
     
     #Lines created using m and b steps throughout gradient descent procedure
     plt.subplot(312)
@@ -127,8 +126,7 @@ def run():
         plt.plot(line)
     plt.xlabel('x')
     plt.ylabel('y')
-    plt.title('Linear Regression Progression')
-
+    
     #Total squared error vs. number of iterations 
     plt.subplot(313)
     plt.plot(SE)
