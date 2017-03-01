@@ -1,4 +1,4 @@
- Linear-Regression-with-Gradient-Descent
+# Linear-Regression-with-Gradient-Descent
 ##Synopsis
 The purpose of this code is to provide insight into how the gradient descent algorithm can be used for linear regression by finding the minimum of the total squared error function: 
 
