@@ -1,5 +1,5 @@
 # Linear-Regression-with-Gradient-Descent
-##Synopsis
+## Synopsis
 The purpose of this code is to provide insight into how the gradient descent algorithm can be used for linear regression by finding the minimum of the total squared error function: 
 
 <img src="https://github.com/pickus91/Linear-Regression-with-Gradient-Descent/blob/master/figure_4.png" align="center" height="25" width="500">
@@ -12,17 +12,17 @@ This code estimates the partial derivative of the squared error function with re
 <img src = "https://github.com/pickus91/Linear-Regression-with-Gradient-Descent/blob/master/figure_3.png" align="right" height="200" width="275"> 
 </div>
 
-##Prerequistes
+## Prerequistes
 * [NumPy] (http://www.numpy.org/)
 * [Matplotlib] (http://matplotlib.org/)
 
-##Code Example
+## Code Example
 ```
     m, b, m_steps, b_steps, SE, numIters = gradient_descent(data, start_m = 0, start_b = 0, learningRate = 0.001, numIterations = 1000, tolerance = 0.0001)
 
 ```
 
-##Licence
+## Licence
 This code is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 
